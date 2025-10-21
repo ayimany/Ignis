@@ -1,0 +1,11 @@
+Int(Int, Int) sum = (a, b) {
+    return a + b
+}
+
+Void() main() {
+    Int a = 6
+    Int b = 7
+    Int c = sum(a, b)
+
+    print(c)
+}
