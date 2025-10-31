@@ -1,4 +1,4 @@
-package xyz.ayimany.cli
+package ignis.cli
 
 import com.xenomachina.argparser.ArgParser
 import com.xenomachina.argparser.default

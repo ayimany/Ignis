@@ -1,0 +1,46 @@
+package ignis.parsing
+
+enum class TokenType(val representation: String) {
+    IDENTIFIER(""),
+    NUMBER(""),
+    STRING(""),
+    PLUS("+"),
+    DOUBLE_PLUS("++"),
+    MINUS("-"),
+    DOUBLE_MINUS("--"),
+    STAR("*"),
+    SLASH("/"),
+    CARET("^"),
+    TILDE("~"),
+    EQUALS("="),
+    NOT_EQUALS("!="),
+    LESS_THAN("<"),
+    GREATER_THAN(">"),
+    LESS_THAN_EQUALS("<="),
+    GREATER_THAN_EQUALS(">="),
+    AMPERSAND("&"),
+    DOUBLE_AMPERSAND("&&"),
+    PIPLE("|"),
+    DOUBLE_PIPE("||"),
+    LESS_THAN_GREATER_THAN("<>"),
+    DOUBLE_EQUALS("=="),
+    TRIPLE_EQUALS("==="),
+    L_PAREN("("),
+    R_PAREN(")"),
+    L_BRACE("{"),
+    R_BRACE("}"),
+    L_BRACKET("["),
+    R_BRACKET("]"),
+    COMMA(","),
+    SEMICOLON(";"),
+    COLON(":"),
+    DOT("."),
+    ARROW("->"),
+    FAT_ARROW("=>"),
+    QUESTION("?"),
+    PIPE("|"),
+    UNDETERMINED("")
+
+}
+
+val symbolTypeMap = TokenType.entries.associateBy { it.representation }

@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "2.2.20"
 }
 
-group = "xyz.ayimany"
+group = "ignis"
 version = "1.0-SNAPSHOT"
 
 repositories {
